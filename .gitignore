@@ -1,0 +1,35 @@
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Production configuration
+**/application-prod.properties
+**/application-prod.yml
+**/application-prod.yaml
+
+# Java build files
+**/target/
+**/*.class
+
+# Logs
+*.log
+logs/
+
+# Credentials and certificates
+*.pem
+*.key
+*.p12
+*.jks
+
+# IDE files
+**/.settings/
+**/.metadata/
+.DS_Store
+
+# Docker runtime data and volumes
+.data/
+**/.data/
+
+# Docker volumes and temporary data
+volumes/
